@@ -1,0 +1,91 @@
+body,html
+{
+    background-color: #fff;
+    font-family: 'Playfair Display',serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+*{
+    text-decoration: none !important;
+}
+.infosection{
+    height: 600px;
+}
+.infoheader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.infocards{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+.infocards .card{
+    position: relative;
+    height: 360px;
+    width: 360px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.9), 0 10px 10px rgba(0,0,0,0.09);
+}
+.infocards .one .cardoneImg{
+    width:230px;
+    position: absolute;
+    top:-50px;
+    right:-50px
+}
+.infocards .two .cardtwoImg{
+    width:230px;
+    position: absolute;
+    top:-50px;
+    right:-50px
+}
+.infocards .three .cardthreeImg{
+    width:230px;
+    position: absolute;
+    top:-50px;
+    right:-50px
+}
+.cardbgone{
+    height: 150px;
+    background-color: #fff;
+}
+.cardbtwo{
+    height: 150px;
+    background-color: #fff;
+}
+.cardbgthree{
+    height: 150px;
+    background-color: #fff;
+}
+.cardContent{
+    padding: 0 20px;
+}
+.cardContent p{
+    line-height: 30px;
+    opacity: 0.6;
+}
+.cardContent .cardBtn{
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: #ededed;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out .2s;
+}
+.cardContent .cardBtn:hover{
+    background-color: #2f8be0;
+}
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+}
